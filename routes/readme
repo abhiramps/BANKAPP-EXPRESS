@@ -1,0 +1,13 @@
+// const user =new User({    //it is used to add data to db
+  //   accno: 1234,
+  //   balance: 1000,
+  //   username: "abhiram",
+  //   password: "Abhi@123",
+  //   history: [
+  //          ]
+  // })
+  // user.save();
+
+  User.find().then((data)=>{   //it is a promise(asynchronous fn) used to fetch data from mongodb
+    res.send(data);
+  })

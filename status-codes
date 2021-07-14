@@ -1,0 +1,12 @@
+http status codes
+=================
+100-199 =>informational response
+200-299 =>sucessful response
+300-399 =>redirects
+400-499 =>client errors
+500-599 =>server errors
+
+commonly used
+=============
+401 =>unauthorized
+422 =>unprocessable entity
